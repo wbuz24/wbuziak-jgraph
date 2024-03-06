@@ -8,12 +8,10 @@ The format is inconsistent and largely written in stream-of-thought text. Theref
 ## Dependencies
 This was entirely written in cpp and shell scripts and compiles with make, you only need gcc, a bash shell and jgraph of course.
 
-```
-gcc
-make
-bin/bash
-jgraph
-```
+ - gcc
+ - make
+ - bin/bash
+ - jgraph
 
 ## Pulling and compilation
 I intended to take care of everything with the shell script, simply pull the repo, run the script and open the resulting jpg.
