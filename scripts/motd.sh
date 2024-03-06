@@ -1,20 +1,20 @@
 # if the jgr, jpg and bin directories are not present, make them
 if [ -d bin/ ]; then
-	echo 'bin exists' 1> /dev/null
+	echo 'Directory: bin/ exists' 1> /dev/null
 else
 	mkdir bin 1> /dev/null
 
 fi
 
 if [ -d jgr/ ]; then
-	echo 'jgr exists' 1> /dev/null
+	echo 'Directory: jgr/ exists' 1> /dev/null
 else
 	mkdir jgr 1> /dev/null
 
 fi
 
 if [ -d jpg/ ]; then
-	echo 'jpg exists' 1> /dev/null
+	echo 'Directory: jpg/ exists' 1> /dev/null
 else
 	mkdir jpg 1> /dev/null
 
