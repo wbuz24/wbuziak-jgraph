@@ -26,11 +26,14 @@ if [ -f bin/motd ]; then
 	make clean 1> /dev/null
 
 fi
-make 1> /dev/null
 
+make
+
+echo ""
 
 # output text and run the script
 echo "Music of the Day Jgraph Generator"
+
 ./bin/motd txt/Music-Of-The-Day.txt 
 
 # run and convert the jgraph
