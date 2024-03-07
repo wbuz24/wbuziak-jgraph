@@ -37,7 +37,7 @@ echo "Music of the Day Jgraph Generator"
 ./bin/motd txt/Music-Of-The-Day.txt 
 
 # run and convert the jgraph
-`~/Applications/jgraph/jgraph -P jgr/Music-Of-The-Day.jgr | ps2pdf - | convert -density 300 - -quality 100 jpg/Music-Of-The-Day.jpg`
-# `jgraph -P Music-Of-The-Day.jgr | ps2pdf - | convert -density 300 - -quality 100 Music-Of-The-Day.jpg`
+# `~/Applications/jgraph/jgraph -P jgr/Music-Of-The-Day.jgr | ps2pdf - | convert -density 300 - -quality 100 jpg/Music-Of-The-Day.jpg`
+`jgraph -P Music-Of-The-Day.jgr | ps2pdf - | convert -density 300 - -quality 100 Music-Of-The-Day.jpg`
 
 echo "Generated jgr/Music-Of-The-Day.jgr and converted to jpg/Music-Of-The-Day.jpg"
